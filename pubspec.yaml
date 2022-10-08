@@ -1,0 +1,67 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  toast: ^0.1.5
+  pdf: ^3.1.0
+
+  platform: ^3.1.0
+  
+  # save file
+  path_provider: ^2.0.1
+
+  # open pdf document
+  open_file: ^3.1.0
+
+  # format dates for invoice
+  intl: ^0.17.0
+
+  sqflite: ^2.0.1
+  shared_preferences: ^2.0.11
+  local_auth: ^1.1.9
+  provider: ^6.0.2
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  http: ^0.13.4
+  
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/logo.jpg
+   - assets/pattern.jpg
+   - assets/Lens.png
+   - assets/Lens1.png
+   - assets/Lens2.png
+   - assets/Lens3.png
+   - assets/Lens4.png
+   - assets/Lens5.png
+   - assets/Lens6.png
+   - assets/Lens7.png
+   - assets/Lens8.png
+   - assets/Lens9.png
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/Arial.ttf
